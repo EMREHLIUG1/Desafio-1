@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Rerserva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Reserva</h1>
+    <form id="reservationForm">
+        <label for="plate">Placa do Veículo:</label>
+        <input type="text" id="plate" required>
+        <label for="owner">Nome do Proprietário:</label>
+        <input type="text" id="owner" required>
+        <label for="apartmentNumber">Número do Apartamento:</label>
+        <input type="text" id="apartmentNumber" required>
+        <label for="block">Bloco do Apartamento:</label>
+        <input type="text" id="block" required>
+        <label for="model">Modelo do Veículo:</label>
+        <input type="text" id="model" required>
+        <label for="color">Cor do Veículo:</label>
+        <input type="text" id="color" required>
+        <label for="parkingNumber">Número da Vaga de Estacionamento:</label>
+        <input type="number" id="parkingNumber" required>
+        <button type="button" onclick="saveReservation()">Salvar</button>
+        <button id="listButton" type="button">Listar Vagas</button>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
